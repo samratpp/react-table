@@ -1,0 +1,47 @@
+.table-wrapper {
+  overflow-x: auto
+}
+
+table {
+  margin: auto;
+  padding-top: 50px;
+  width: 100%;
+}
+
+table thead {
+  background: #3d3d3d;
+  color: #fff;
+}
+
+table thead tr th,
+table tbody tr td {
+  padding: 10px 15px;
+}
+
+table tbody tr:nth-child(odd) {
+  background: #e6e6e6;
+}
+
+table tbody {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+table tbody tr td img {
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 1px solid #0220a7
+}
+
+.img-row {
+  display: flex;
+  align-items: center;
+}
+
+.select-tab {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: none;
+  font-weight: 600;
+}

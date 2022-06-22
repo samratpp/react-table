@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background: #000;
+  position: fixed;
+}
+
+.header img {
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+.header img:hover {
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+button {
+  margin: 20px;
+  padding: 10px 15px;
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+button:hover {
+  background: #fff;
+  color: #000;
+  border-color: #000;
+  cursor: pointer;
+}
